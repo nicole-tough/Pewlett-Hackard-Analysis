@@ -6,9 +6,13 @@ Pewlett-Hackard has approached us because they are about to have a big wave of e
 This analysis finds the number of retiring employees by job title within Pewlett-Hackard. It also finds the number of employees who are eligible to participate in a mentorship program.
 
 ## Results
-- While sorting the data to find the number of employees who will be retiring soon, we first created a table of all employees who soon be turning retirement age. We did this by sorting out all current employees who were born between 1952 and 1955. This returned the list of retirement ready employees and all of their current and former job titles. This can be seen in the table below.
+- While sorting the data to find the number of employees who will be retiring soon, we first created a table of all employees who soon be turning retirement age. We did this by sorting out all current employees who were born between 1952 and 1955. This returned the list of retirement ready employees and all of their current and former job titles. A sample of this can be seen in the table below.
+
+![Retirement titles table](https://github.com/nicole-tough/Pewlett-Hackard-Analysis/blob/main/Data/unique_titles.PNG)
 
 - To find the true number of employees who will be retiring, we used the unique feature to just get each employee's most recent job title. Then, we did a count of each title that has employees who will be retiring soon. The results of this table are below.
+
+![Titles table](https://github.com/nicole-tough/Pewlett-Hackard-Analysis/blob/main/Data/retiring_titles.PNG)
 
 - It will be important for Pewlett-Hackard to note that they will have nearly 50,000 employees with a Senior job title about to retire. They may want to handle this by promoting some of their current staff to a Senior level job.
 
